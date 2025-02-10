@@ -1,0 +1,114 @@
+body, h1, ul, li, input, button {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.to-do-list {
+  background: #fff;
+  padding: 20px 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+}
+
+h1 {
+  font-family:Verdana;
+  font-size: 30px;
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+input {
+  margin-left:100px;
+  flex-grow: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.addbutton {
+  background-color: #5cb85c;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.addbutton:hover {
+  background-color: #4cae4c;
+}
+
+/* To-Do List */
+#todo-list {
+  list-style: none;
+}
+
+#todo-list li {
+  background: #f9f9f9;
+  margin-bottom: 10px;
+  padding: 10px 15px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: transform 0.2s ease;
+}
+
+.delete-button {
+  background: #d9534f;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 5px 10px;
+  font-size: 14px;
+  margin-left:5px;
+}
+
+.delete-button:hover {
+  background: #c9302c;
+}
+
+.move {
+  background: #4b92e4;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 5px 10px;
+  font-size: 14px;
+  margin-left:5px;
+}
+
+.move:hover {
+  background: #2576b0;
+}
+
+.download-button{
+  background: #5cb85c;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 10px 20px;
+  font-size: 14px;
+  margin-left:175px;
+  cursor:pointer;
+}
